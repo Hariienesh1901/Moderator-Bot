@@ -1,0 +1,15 @@
+{
+  "name": "Moderator-Bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/voice": "^0.7.5",
+    "axios": "^0.24.0",
+    "consola": "^2.15.3",
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-fetch": "^3.1.0"
+  }
+}
