@@ -12,8 +12,13 @@ server.get("/", (req, res) => {
 });
 
 server.all("*", (req, res) => {
-    res.end(`Moderator Bot \nPath: ${req.originalUrl}`);
-});
+    server.all("/", (req, res, next) => {
+        res.header("Access-Control-Allow-Origin", "*");
+        res.header("Access-Control-Allow-Headers", "X-Requested-With");
+        res.send(`Moderator Bot \nPath: ${req.ori}`)
+        next();
+    });
+})
 
 const port = process.env.PORT || 8000
 
