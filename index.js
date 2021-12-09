@@ -154,6 +154,7 @@ const checkAbility = (user, next) => {
     }
 };
 
+keepAlive();
+
 client.login(process.env.DISCORD_TOKEN);
 
-keepAlive();
