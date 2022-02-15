@@ -7,7 +7,7 @@
     "node": "16.x"
   },
   "dependencies": {
-    "@discordjs/voice": "^0.7.5",
+    "@discordjs/voice": "^0.8.0",
     "axios": "^0.25.0",
     "consola": "^2.15.3",
     "discord.js": "^13.4.0",
