@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@discordjs/voice": "^0.7.5",
-    "axios": "^0.25.0",
+    "axios": "^0.26.0",
     "consola": "^2.15.3",
     "discord.js": "^13.4.0",
     "dotenv": "^10.0.0",
